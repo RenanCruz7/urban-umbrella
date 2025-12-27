@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-background-light text-slate-900 dark:bg-background-dark dark:text-white min-h-screen flex flex-col overflow-x-hidden selection:bg-primary selection:text-white;
+}
+
+* {
+  @apply box-border;
+}
+
+a {
+  @apply no-underline;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #231016;
+}
+::-webkit-scrollbar-thumb {
+  background: #49222f;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f20d59;
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(242, 13, 89, 0.5);
+}
