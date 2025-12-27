@@ -12,10 +12,15 @@ export function Navbar({ title }: NavbarProps) {
           </div>
           <h2 className="text-base sm:text-lg font-bold tracking-tight">{title}</h2>
         </div>
-        <button className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary hover:bg-rose-600 transition-colors text-white text-sm font-bold shadow-lg shadow-primary/20">
+        <a
+          href="https://open.spotify.com/track/1PDP7mLiAMwhfmgIwzhOm2?si=9880639ba9cc41d0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary hover:bg-rose-600 transition-colors text-white text-sm font-bold shadow-lg shadow-primary/20"
+        >
           <span className="material-symbols-outlined text-[20px]">music_note</span>
           <span className="hidden sm:inline">Nossa Música</span>
-        </button>
+        </a>
       </div>
     </nav>
   )

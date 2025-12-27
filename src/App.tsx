@@ -71,7 +71,7 @@ function App() {
               '"Que possamos construir memórias ainda mais lindas juntos nos próximos anos. Você é o meu melhor presente, hoje e sempre."',
             ]}
             closingLabel="Com todo amor,"
-            signature="Seu Parceiro"
+            signature="Renan Cruz"
           />
         </div>
       </main>
