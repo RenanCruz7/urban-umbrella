@@ -88,6 +88,7 @@ function App() {
             paragraphs={[
               '"Meu amor, neste Natal, eu só quero agradecer por você ser a luz dos meus dias. Ver você com nossa filha me faz o homem mais feliz do mundo."',
               '"Que possamos construir memórias ainda mais lindas juntos nos próximos anos. Você é o meu melhor presente, hoje e sempre."',
+              '"Obrigado por cada sorriso, cada abraço e cada momento compartilhado. Você é a razão do meu Natal ser tão especial."',
             ]}
             closingLabel="Com todo amor,"
             signature="Renan Cruz"
