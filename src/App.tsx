@@ -41,6 +41,25 @@ const gallery: GalleryItem[] = [
     image: '/family.jpeg',
     span: 'col-span-2',
   },
+  {
+    image: '/foto6.jpeg',
+  },
+  {
+    image: '/foto7.jpeg',
+  },
+  {
+    image: '/foto8.jpeg',
+    span: 'col-span-2 row-span-2',
+  },
+  {
+    image: '/foto9.jpeg',
+  },
+  {
+    image: '/foto10.jpeg',
+  },
+  {
+    image: '/foto11.jpeg',
+  },
 ]
 
 const heroImage =

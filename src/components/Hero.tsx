@@ -30,10 +30,13 @@ export function Hero({ image, badgeLabel, title, highlight, description, ctaLabe
           </h1>
           <p className="text-lg text-gray-200 max-w-lg font-light leading-relaxed">{description}</p>
           <div className="mt-4 flex gap-4">
-            <button className="h-12 px-6 rounded-xl bg-white text-background-dark font-bold text-sm hover:bg-gray-100 transition-colors flex items-center gap-2">
+            <a
+              href="#galeria"
+              className="h-12 px-6 rounded-xl bg-white text-background-dark font-bold text-sm hover:bg-gray-100 transition-colors flex items-center gap-2"
+            >
               <span className="material-symbols-outlined">photo_library</span>
               {ctaLabel}
-            </button>
+            </a>
           </div>
         </div>
       </div>
